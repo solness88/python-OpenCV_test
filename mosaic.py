@@ -1,4 +1,4 @@
-#mosaic and defocus picture, then show them on the screen
+#blur and defocus picture, then show them on the screen
 
 import cv2
 
