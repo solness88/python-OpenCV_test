@@ -24,11 +24,11 @@ def manga_filter(src, screen, th1=60, th2=150):
 
 
 # 入力画像とスクリーントーン画像を取得
-img = cv2.imread("UK_embassy.jpg")
+img = cv2.imread("bridge.jpg")
 screen = cv2.imread("screentone.png")
 
 # 画像の漫画化
 manga = manga_filter(img, screen, 70, 140)
     
 # 結果を出力
-cv2.imwrite("manga_output3.jpg", manga)
+cv2.imwrite("manga.jpg", manga)
